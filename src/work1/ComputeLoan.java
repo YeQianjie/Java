@@ -11,6 +11,7 @@ public class ComputeLoan {
 		double annualInterestRate=input.nextDouble();
 		double monthlyInterestRate=annualInterestRate/1200;
 
+		
 		System.out.print("Enter number of years as an integer,e.g.,5: ");
 		int numberOfYears=input.nextInt();
 		System.out.print("Enter loan amount, e.g.,120000.95: ");
